@@ -20,5 +20,8 @@ public class Main {
                 """ + anoDeLancamento;
         System.out.println(sinopse);
 
+        //Casting: Converteu numero double e me deu numero inteiro
+        int classificacao = (int) (media /2);
+        System.out.println(classificacao);
     }
 }
